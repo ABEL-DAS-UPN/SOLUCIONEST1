@@ -1,0 +1,67 @@
+@import url("https://fonts.cdnfonts.com/css/ninja-naruto");
+
+* {
+  font-family: "Ninja Naruto", sans-serif;
+}
+
+
+/* Establece el video como fondo y ajusta su tamaño */
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+#background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Estilos para el contenido encima del video */
+.contenido {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding: 50px;
+  color: #fff;
+}
+
+/* Estilos para el div encima del video */
+.div-encima {
+  margin: auto;
+  padding: auto;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -65%);
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  color: #fff;
+  border-radius: 10px;
+}
+/* Estilos para el logo de Naruti*/
+.div-encima2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -140%);
+  background-color: rgba(0, 0, 0, 0); /* Fondo Transparente */
+  padding: 20px;
+  margin: auto;
+}
+.textBienvenida {
+  text-align: justify;
+}
+.nubecita {
+  padding: auto;
+}
+.botones{
+    display: flex;
+    justify-content: space-around;
+  }
+  
